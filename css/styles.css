@@ -85,7 +85,7 @@ img, video{
 /* hero header navbar changes */
 
 .hero-nav{
-    background: none;
+    background: white;
     grid-column: 1/-1;
     grid-row: 1/ -1;
     background: none;
@@ -96,7 +96,7 @@ img, video{
 .hero-nav, .logo a,
 .hero-nav, .other-nav,
 .nav-menu a {
- color: rgb(141, 122, 122);
+ color: royalblue;
 }
 
 .hero-nav, .other-nav,

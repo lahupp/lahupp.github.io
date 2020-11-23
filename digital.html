@@ -8,13 +8,9 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <title>Lily Hupp Homepage</title>
   </head>
-  <body class="hero-body home-body">
-    <header class="hero-box">
-        <section class="hero-image-box">
-            <img src="img/homepage.jpg" alt="image of inkblots." class="hero-img"
-        ></section>
-
-      <nav class="nav-bar hero-nav home-nav">
+  <body> 
+      <header>
+      <nav class="nav-bar other-nav">
         <h1 class="logo"><a href="index.html">Lily Hupp</a></h1>
         <ul class="nav-menu">
           <li class="nav-item"><a href="2d.html">Desgin</a></li>
@@ -37,14 +33,36 @@
           </li>
         </ul>
       </nav>
-      <section class="hero-text-box">
-        <h1 class="hero-heading">Hey bae!</h1>
-        <p class="hero-text">
-            Welcome to my webpage!!
-        </p>
-        <p><button class="hero-button">View Portfolio</button></p>
-      </section>
     </header>
+    <main class="gallery-page">
+        <h1>Portfolio</h1>
+        <section class="portfolio-gallery">
+            <div class="gallery-item">
+                <a href="img/digital-2.jpg" class="glightbox"
+                data-glightbox="title: Greeting Card part 1 ; description: my spin on a greeting card inspired by kristen radkes outstanding book “imagine Wanting Only This’ ;"></a>
+                <img src="img/digital-2.jpg"
+                alt="Greeting Card"
+                title="Cookies"
+                class="gallery-img"></a>
+            </div>
+            <div class="gallery-item">
+                <a href="img/digital-3.jpg" class="glightbox"
+                data-glightbox="title: Greeting Card part 2 ; description: my spin on a greeting card inspired by kristen radkes outstanding book “Imagine Wanting Only This;"></a>
+                <img src="img/digital-3.jpg"
+                alt="Gretting Card"
+                title="Cookies"
+                class="gallery-img"></a>
+            </div>
+            <div class="gallery-item">
+              <a href="img/digital-1.jpg" class="glightbox"
+              data-glightbox="title: Monster From Within; description: my spin on a greeting card inspired by kristen radkes outstanding book “Imagine Wanting Only This;"></a>
+              <img src="img/digital-1.jpg"
+              alt="Gretting Card"
+              title="Cookies"
+              class="gallery-img"></a>
+          </div>
+          </section> 
+        </main>    
     <footer>
       <nav class="nav-bar footer-nav">
         <ul class="nav-menu">
@@ -58,7 +76,7 @@
           </li>
         </ul>
       </nav>
-      <section class="footer-social">
+      <main class="footer-social">
         <a
           href="https://instagram/_lilydoesart"
           aria-label="Link to Instagram"
@@ -68,8 +86,12 @@
         <a href="https://github.com/lahupp" aria-label="Link to Github"
           ><i class="fab fa-github fa-3x" aria-hidden="true"></i
         ></a>
-      </section>
+      <main>
       <p class="footer-copyright">Copyright &copy; 2020</p>
     </footer>
+    <script src="js/glightbox.min.js"></script>
+    <script type="text/javascript">
+        const lightbox = GLightbox({ loop: true });
+    </script>
   </body>
 </html>
